@@ -1,0 +1,443 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: whitesmoke;
+    background-size:cover ;
+    height: 120vh;
+
+
+}
+.submain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    
+}
+
+.submain h1{
+       
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xlarge;
+      
+      
+}
+
+.logo{display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    color: black;
+    gap: 2rem;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+    
+}
+.logo a:hover{
+    color: grey;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.log{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.log a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.log a:hover{
+    color: gray;
+}
+
+
+input{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3rem;
+}
+
+.intro{
+    padding: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    
+}
+.intro h1{
+
+font-size: 92px;
+font-weight: lighter;
+margin-bottom: 3px;
+margin-top: 4px;
+margin-bottom: 2rem;
+
+}
+@keyframes ruth{
+    0%{
+        background-color: plum;
+    }
+    25%{
+        background-color: goldenrod;
+    }
+    50%{
+        background-color: whitesmoke;
+    }
+    100%{
+        background-color: green;
+    }
+}
+.intro h3{
+margin-left: 36rem;
+
+background-color: plum;
+border-radius: 3rem;
+ width:24% ;
+padding-bottom: 6px;
+padding-top: 6px;
+margin-bottom: 2rem;
+animation-name: ruth;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+
+                                                                                                                                                                                                            
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-size: 23px;
+}
+ 
+.getstarted{
+    text-decoration: none;
+    width: 8rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-left: 41rem;
+    
+    
+    
+}
+.getstarted:hover{
+    background-color: gray;
+}
+.main2{
+    
+    display: flex;
+gap: 3rem;
+margin-top: 5rem;
+color: white;
+}
+
+.job{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+
+ .job p{
+    border: solid 2px white;
+    border-radius: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+ }
+
+ .position{
+    position: relative;
+    width: 400px;
+    
+ }
+ 
+ .absolute{
+    position: absolute;
+    bottom: 10px;
+    left: 2rem;
+    z-index: 10;
+    
+    
+    
+ }
+ img{
+    border-radius: 1rem;
+ }
+ .absolute h4{
+    padding-right: 13rem;
+    
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .designs{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+ }
+#circle{
+    border-radius: 100%;
+}
+section{
+    margin-top: 10rem;
+}
+section h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    
+}
+
+ .staffp{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    
+    font-family: arial narrow;
+    align-items: center;
+ }
+ .name{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+ }
+ .name p{
+    font-size: small;
+ }
+.main h2{
+    font-size: larger;
+}
+.pro a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 2px;
+    color: white;
+}
+.pro a:hover{
+    background-color: black;
+}
+.sm{
+    gap:1rem ;
+    display: flex;
+}
+ .name a img:hover{
+    background-color: palevioletred;
+    border-radius: 100%;
+    padding: 3px;
+}
+#browse{text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px black solid;
+    border-radius: 5rem;
+    display: block;
+width: 15rem;
+font-size: large;
+margin-left: 40%;
+}
+#browse a{
+    text-decoration: none;
+    color: black;
+}
+#browse a:hover{
+    color: gray;
+}
+.yellow{
+    padding: 10rem;
+    margin-top: 6rem;
+    background-color: rgb(237, 202, 115);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yellow h1{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 70;
+    margin-bottom: 2rem;
+}
+.yellow p{
+    text-align:center ;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    
+}
+
+.getstartedn{
+    text-decoration: none;
+    width: 11rem;
+    background-color: black;
+    color: white;
+    border-radius: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.getstartedn:hover{
+    background-color: gray;
+}
+ 
+.getstartedl{
+
+    text-decoration: none;
+    width: 13rem;
+    background-color:white;
+    color: black;
+    border-radius: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+    
+}
+.getstartedl:hover{
+color: gray;
+}
+.yellowgetstarted{
+margin-bottom: 2rem;
+display: flex;
+gap: 2rem;
+}
+.joindribble{
+    color: black;
+}
+.lastdesign{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.icons{
+    display: flex;
+    gap: 3px;
+
+}
+
+.icon:hover{
+    background-color: white;
+    padding: 0%;
+}
+
+#lastsubmain {
+    display: flex;
+    align-items: center;
+    gap: rem;
+}
+.lastlogo{
+    display: flex;
+    gap: 3rem;
+}
+.lastlogo a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lastlogo a:hover{
+    color: gray;
+}
+.drib{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+#submain h1{
+       
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xlarge;
+      
+      
+}
+#submain{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 10rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    gap: 10rem;
+    padding-bottom: 5rem;
+}
+.footer{
+    display: flex;
+    gap: 1rem;
+}
+.footer a{
+    text-decoration: none;
+    color: gray;
+    font-family: "Open Sans", sans-serif;
+
+
+}
+
+/* ion-icon{
+  color: gray;
+}
+ ion-icon a:hover{
+    color: rgb(241, 100, 124); */
+/* } */
+ /* #icon{
+    margin-top: 2rem;
+} */
+
+/* #icon a{
+    padding: 0%;
+}
+#icon a:hover{
+    padding: 0%;
+    background-color: white;
+} */ 
